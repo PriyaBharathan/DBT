@@ -1,0 +1,16 @@
+select
+  EMPLOYEE_ID,
+  FIRST_NAME,
+  LAST_NAME,
+  EMAIL,
+  PHONE_NUMBER,
+  HIRE_DATE,
+  JOB_ID,
+  SALARY,
+  COMMISSION_PCT,
+  MANAGER_ID,
+  DEPARTMENT_ID,
+  CURRENT_TIMESTAMP AS LAOD_TIME
+from
+sch_dbt.src_employees
+where salary>=10000
