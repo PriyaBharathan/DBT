@@ -8,5 +8,5 @@ select
   last_name,
   current_timestamp as load_time
 from 
-  src_employees;
+  dbt_1.sch_dbt.src_employees
   
